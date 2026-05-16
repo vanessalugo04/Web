@@ -38,6 +38,8 @@ print "El primer texto: $txt <br> ";
 print 'El segundo texto: ' . $txt2 . '<br>';
 
 
+
+
 ?>
 </body>
 </html>
