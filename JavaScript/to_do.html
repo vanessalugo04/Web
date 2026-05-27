@@ -1,0 +1,20 @@
+/* HTML para crear un to-do list con JavaScript.
+Este html contiene: campo de entrada, boton para agregar tareas, 
+lista de tareas, boton para eliminar tareas 
+*/
+<!DOCTYPE html>
+<html>
+<body>
+<h2>To-Do List</h2>
+
+<input id="task" placeholder="New task"> <!-- campo de entrada -->
+<button onclick="addTask()">Agregar tarea</button> <!-- boton para agrgegar tareas -->
+<ul id="list"></ul> <!-- lista de tareas -->
+<button onclick="clearAll()">Clear All</button> <!-- boton para eliminar tareas -->
+
+<script src="todo.js"> <!-- permite agregar codigo de programacion en JavaScript dentro del html -->
+let tasks = []; // array para almacenar las tareas
+</script>
+
+</body>
+</html>
